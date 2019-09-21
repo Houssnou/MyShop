@@ -176,6 +176,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CategoryManagerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ProductManagerController.cs" />
@@ -286,9 +287,14 @@
     <Content Include="Views\ProductManager\Create.cshtml" />
     <Content Include="Views\ProductManager\Edit.cshtml" />
     <Content Include="Views\ProductManager\Delete.cshtml" />
+    <Content Include="Views\CategoryManager\Index.cshtml" />
+    <Content Include="Views\CategoryManager\Create.cshtml" />
+    <Content Include="Views\CategoryManager\Edit.cshtml" />
+    <Content Include="Views\CategoryManager\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Category\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
