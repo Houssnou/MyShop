@@ -124,7 +124,8 @@ namespace MyShop.Services
                                    Id = b.Id,
                                    Quantity = b.Quantity,
                                    Image = p.Image,
-                                   Price = p.Price
+                                   Price = p.Price,
+                                   ProductName = p.Name
                                }).ToList();
 
                 return results;
